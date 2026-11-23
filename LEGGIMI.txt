@@ -1,0 +1,11 @@
+COSTO LUCE · versione 2 · iPhone
+
+Pubblica l’intera cartella su un hosting HTTPS statico (per esempio Netlify Drop oppure GitHub Pages). Apri il link con Safari sul tuo iPhone, premi Condividi > Aggiungi alla schermata Home.
+
+Inserisci i kWh e i giorni. L’app cerca automaticamente una serie di quotazioni PUN giornaliere del mese in corso e ne calcola la media provvisoria.
+
+IMPORTANTE: Le API esterne possono essere non disponibili o bloccare le richieste. In quel caso compare un avviso esplicito e un campo di riserva manuale: l’app NON finge che il dato sia aggiornato. Alcune API pubblicizzano endpoint storici non ancora attivi. La media aritmetica dei dati giornalieri non coincide necessariamente con l’indice mensile ufficiale per fasce della bolletta.
+
+Il modello Unoenergy è una stima basata sulla bolletta di ottobre 2026 e usa spread 0,006 €, perdite 10%, dispacciamento 0,013311 €, altre componenti variabili stimabili, IVA 10%, correzione +4% e quote fisse parametrizzate. I prezzi regolati e la potenza possono cambiare. Il prezzo indicizzato non costituisce un importo certo.
+
+Fonti: https://watto.it/pun ; https://energyindex.it/it/api/docs ; https://gme.mercatoelettrico.org/
